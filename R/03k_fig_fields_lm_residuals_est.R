@@ -42,6 +42,7 @@ sf_regions <- st_read("00_data//shp/regions.shp")
 
 #### output ####
 file_fig <- "03_raster_interpolation//fields_lm_residuals_est.pdf"
+file_fig_jpg <- "03_raster_interpolation//fields_lm_residuals_est.jpg"
 file_fig_article <- "article/figs/fig_fields_lm_residuals_est.pdf"
 
 
@@ -258,6 +259,8 @@ lambda_sel <- list_out$WS$lambdas[which.min(list_out$WS$error)]
 
 ggsave(fig_c, filename =  file_fig,
        width = 140,height = 128, units = "mm")
+ggsave(fig_c, filename =  file_fig_jpg,
+       width = 140,height = 128, units = "mm",dpi = 300)
 ggsave(fig_c, filename =  file_fig_article,
        width = 140,height = 128, units = "mm")
 

@@ -21,6 +21,7 @@ df_conec_NED2 <-
   readRDS("02_regions_dem_conecs/df_conecs_lambdas_NED2/df_conec_reg8.rds")
 
 file_fig <- "02_regions_dem_conecs//fig_profiles_NEDs.pdf"
+file_fig_png <- "02_regions_dem_conecs//fig_profiles_NEDs.png"
 file_fig_article <- "article/figs/fig_profiles_NEDs.pdf"
 
 
@@ -309,6 +310,9 @@ ggsave(fig_c,filename = file_fig_article,
 ggsave(fig_c,
        filename = file_fig,
        width = 140,height = 75, units = "mm")
+ggsave(fig_c,
+       filename = file_fig_png,
+       width = 140,height = 75, units = "mm",dpi = 300)
 # ggsave(fig_c,
 #        filename = file_fig,
 #        width = 90,height = 55, units = "mm")
