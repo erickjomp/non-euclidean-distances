@@ -9,7 +9,7 @@ This repository contains the code of the paper **"Can non-Euclidean distances im
 -->
 
 <p align="center">
-  <img src="02_regions_dem_conecs/fig_profiles_NEDs.png" alt="non-Eucldiean distances examples" width="450" >
+  <img src="02_regions_dem_conecs/fig_profiles_NEDs.png" alt="non-Eucldiean distances examples" width="550" >
 </p>
 
 <p align="center">
