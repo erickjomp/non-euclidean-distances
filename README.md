@@ -1,6 +1,6 @@
 # non-euclidean-distances
 
-This repository contains the code of the paper **"Can non-Euclidean distances improve spatial interpolation of precipitation in mountainous regions?"**
+This repository contains the R code and data of the paper **"Can non-Euclidean distances improve spatial interpolation of precipitation in mountainous regions?"**
 
 <!-- 
 <p align="center">
